@@ -1,0 +1,156 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CV - Ocat</title>
+  <meta name="description" content="simple CV example created with HTML and CSS">
+  <meta name="author" content="Fly Nerd">
+  <link rel="icon" href='{% static "img/cv/favicon.ico" %}'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href='{% static "css/cv.css" %}'>
+</head>
+<style>
+  header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('{% static "img/cv/bg.jpg" %}');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+</style>
+<body>
+  <header>
+    <div>
+      <img src='{% static "img/cv/traje.jpg" %}' />
+    </div>
+    <h1>Oliver Lucero</h1>
+    <section>
+      <p>
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut aliquet felis. Suspendisse enim leo, accumsan non enim eu, posuere accumsan purus. Ut sed nibh luctus, tincidunt ante in, tempor purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc eget convallis justo. Donec ut.</p>
+      <a href="https://www.facebook.com" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.twitter.com" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://github.com" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
+      <a href="https://www.instagram.com" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </section>
+  </header>
+  <main>
+    <section>
+      <h3>Courses & Workshops</h3>
+      <article class='course'>
+        <div class='title'>
+          <h4>Udemy: Intro to HTML and CSS</h4>
+        </div>
+        <div class="descrition">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ipsum enim, convallis vitae nulla quis, rhoncus laoreet felis. Curabitur luctus mollis lacus vitae sodales. Morbi accumsan, nibh at elementum mollis, leo tellus sagittis velit, quis dignissim mauris dui et libero.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Udemy: The Web Developer</h4>
+        </div>
+        <div class="descrition">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ipsum enim, convallis vitae nulla quis, rhoncus laoreet felis. Curabitur luctus mollis lacus vitae sodales.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Web Programming with JavaScript</h4>
+        </div>
+        <div class="descrition">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ipsum enim, convallis vitae nulla quis, rhoncus laoreet felis. Curabitur luctus mollis lacus vitae sodales. Morbi accumsan, nibh at elementum mollis.</p>
+        </div>
+      </article>
+      <article class='course'>
+        <div class='title'>
+          <h4>Django</h4>
+        </div>
+        <div class="descrition">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ipsum enim, convallis vitae nulla quis, rhoncus laoreet felis.</p>
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <div class='skills'>
+        <div class='column'>
+          <h4>Good knowledge</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>JavaScript ES5/6</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class='column'>
+          <h4>Basic knowledge</h4>
+          <ul>
+            <li>jQuery</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+            <li>Django</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>🇪🇸 Spanish - Native speaker</p>
+          <p>🇬🇧 English - Proficient B1/B2</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <article>
+        <div class='school'>
+          <span>2016-2019</span> <strong>Cecyte Plantel 1</strong>
+        </div>
+        <div class="descrition">
+          Upper middle school education
+        </div>
+      </article>
+      <article>
+        <div class='school'>
+          <span>2019-Present</span> <strong>UTRM</strong>
+        </div>
+        <div>
+          TSU in Information Technology, Multiplatform Software Development Area
+        </div>
+      </article>
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <article>
+        <div class='job-title'>
+          <span>03.2018 - 06.2018</span> <strong>Tentacles Company</strong><br> <strong>Position:</strong> Web developer Intern
+        </div>
+        <div>
+          <p><strong>Tech stack:</strong> HTML5 / CSS / JavaScript / jQuery</p>
+          <ul class="job-description">
+            <li>Develop web application for Octopoda departments</li>
+            <li>Implement UI (front-end site) based on received graphic design and requirements</li>
+            <li>Co-operate with the back-end team </li>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Created by: Oliver Lucero</a> / 2021 </p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,273 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master en CSS con OLIVER WEB</title>
+    <link rel="icon" type="image/x-icon" href='{% static "img/responsive1/logo.png" %}' />
+    <link rel="stylesheet" type="text/css" href='{% static "css/Styles.css" %}' />
+</head>
+<body>
+    <!-- Inicio de la cabecera -->
+        <header id="header">
+
+            <div id="logotipo">
+                <img src='{% static "img/responsive1/logo.png" %}' alt="Logo Master en CSS" >
+            </div>
+
+            <h1>
+                <a href="#">Master en CSS</a>
+            </h1>
+
+        </header>
+
+    <!-- Fin de la cabecera -->
+
+    <!-- Menu de navegación-->
+        <nav id="nav">
+            <ul>
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#">Contenido</a>
+                </li>
+                <li>
+                    <a href="#">Requerimientos</a>
+                </li>
+                <li>
+                    <a href="#">Lenguajes</a>
+                    <ul>
+                        <li>
+                            <a href="#">HTML</a>    
+                        </li>
+                        <li>
+                            <a href="#">CSS</a>    
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Frameworks</a>
+                    <ul>
+                        <li>
+                            <a href="#">LESS</a>    
+                        </li>
+                        <li>
+                            <a href="#">SASS</a>    
+                        </li>
+                        <li>
+                            <a href="#">Boostrap 4</a>    
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Proyectos</a>
+                </li>
+                <li>
+                    <a href="#">El instructor</a>
+                </li>
+                <li>
+                    <a href="#">Reseñas</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    <!-- Fin del menu-->
+
+    <!-- INICIO DEL CONTENIDO CENTRAL -->
+        <div id="content">
+            <!-- INICIO DE LA BARRA LATERAL -->
+                <aside id="aside">
+                    <div class="widget" id="login">
+                        <h3>Entrar a la web</h3>
+                        <form action="">
+                            <label for="">Usuario</label>
+                            <input type="text" name="" id="">
+
+                            <label for="">Contraseña</label>
+                            <input type="password" name="" id="">
+
+                            <input type="submit" value="Entrar">
+                        </form>
+                        <a href="#">Zona de alumnos</a>
+                        <a href="#">Zona de profesor</a>
+                        <a href="#">Acceso a calificaciones</a>
+                    </div>
+
+                    <div class="widget" id="login">
+                        <h3 class="red">Aula virtual 1</h3>
+                        <form action="">
+                            <label for="">Nombre de usuario</label>
+                            <input type="text" name="" id="">
+
+                            <label for="">Contraseña</label>
+                            <input type="password" name="" id="">
+
+                            <input type="submit" value="Entrar">
+                        </form>
+                    </div>
+
+                    <div class="widget" id="login">
+                        <h3 class="blue">Aula virtual 2</h3>
+                        <form action="">
+                            <label for="">Nombre de usuario</label>
+                            <input type="text" name="" id="">
+
+                            <label for="">Contraseña</label>
+                            <input type="password" name="" id="">
+
+                            <input type="submit" value="Entrar">
+                        </form>
+                    </div>
+
+                    <div class="widget" id="login">
+                        <h3>Enlace de interes</h3>
+                        <ul>
+                            <li>
+                                <a href="#">Master en JavaScript</a>
+                            </li>
+                            <li>
+                                <a href="#">PHP</a>
+                            </li>
+                            <li>
+                                <a href="#">WEBS FULL STACK</a>
+                            </li>
+                            <li>
+                                <a href="#">Master en Frameworks JS</a>
+                            </li>
+                            <li>
+                                <a href="#">Curso de Git</a>
+                            </li>
+                        </ul>
+                    </div>
+                </aside>
+            <!-- FIN DE LA BARRA LATERAL-->
+
+            <!-- INICIO DE LAS SECCIONES -->
+                <div id="sections">
+                    <section id="frontend">
+                        <span class="sticker">
+                            <img class="stickerOne" src='{% static "img/responsive1/scotch.png" %}' alt="Pegatina" />
+                            <img class="stickerTwo" src='{% static "img/responsive1/scotch.png" %}' alt="Pegatina" />
+                        </span>
+                        <h2 class="titulo">Noticias de FRONTEND</h2>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <span class="icon">a</span>
+                            <a href="#">Titulo de la entrada</a>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                    </section>
+                    <section id="backend">
+                        <span class="sticker">
+                            <img class="stickerOne" src='{% static "img/responsive1/scotch.png" %}' alt="Pegatina" />
+                            <img class="stickerTwo" src='{% static "img/responsive1/scotch.png" %}' alt="Pegatina" />
+                        </span>
+                        <h2 class="titulo red">Noticias de FRONTEND</h2>
+                        <article class="article">
+                            <a href="#">Titulo del BACKEND</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                    </section>
+                    <section id="instructor">
+                        <span class="sticker">
+                            <img class="stickerOne" src='{% static "img/responsive1/scotch.png" %}' alt="Pegatina" />
+                            <img class="stickerTwo" src='{% static "img/responsive1/scotch.png" %}' alt="Pegatina" />
+                        </span>
+                        <h2 class="titulo blue">Noticias de INSTRUCTOR</h2>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                        <article class="article">
+                            <a href="#">Titulo de la entrada</a>
+                            <span class="icon">a</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti dolores alias maxime non, repudiandae quisquam velit adipisci natus tempore pariatur dicta a, doloremque quidem impedit ab ea quam minima dolorum accusantium sint quaerat et? Voluptatum tenetur dignissimos eveniet blanditiis. Tempora pariatur eum dolores cum! Voluptates quis perferendis sequi atque laborum.
+                            </p>
+                            <span class="date">[20-12-2020. Oliver Lucero]</span>
+                        </article>
+                    </section>
+                    <div id="history">
+                        <a href="#">[Ver historico de noticias]</a>
+                    </div>
+                </div>
+            <!-- FIN DE LAS SECCIONES-->
+        </div>
+        <div class="clearfix"></div>
+    <!-- FIN DEL CONTENIDO CENTRAL -->
+        <footer id="footer">
+            <p>&copy; Desarrollado por Oliver Lucero</p>
+            <p>Mas cotenido y desarrollo web en <a href="#">More</a></p> 
+        </footer>
+    
+</body>
+</html>

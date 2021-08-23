@@ -1,0 +1,153 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, user-scalable = no" > 
+    <link type="text/css" rel="stylesheet" href='{% static "css/inicio.css" %}'>
+    <title>Maquetación con Flexbox | Oliver Lucero</title>
+</head>
+<body>
+    <!-- Inicio Container -->
+    <div id="container">
+        <!-- Inicio Cabecera -->
+        <header id="header">
+            <div class="logo">
+                <h1>Portafolio</h1>
+            </div>
+
+            <nav id="menu">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--FIN CABECERA-->
+
+        <!--INICIO CONTENIDO-->
+        <section id="content">
+
+            <aside id="aside">
+                <h2>What do you want to see?</h2>
+                <ul>
+                    <li>
+                        <a href="#">Webs</a>
+                    </li>
+                    <li>
+                        <a href="#">Apps</a>
+                    </li>
+                    <li>
+                        <a href="#">Designs</a>
+                    </li>
+                    <li>
+                        <a href="#">Others</a>
+                    </li>
+                </ul>
+            </aside>
+
+            <div id="projects">
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src='{% static "img/psw.png" %}' alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="formpsw">Python Password Generator</a>
+                        <p>Web Site</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src='{% static "img/cv.png" %}' alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="cv">Currículum vitae</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src='{% static "img/responsive1.png" %}' alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="responsive1">Responsive Project HTML & CSS</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src='{% static "img/responsive2.png" %}' alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="responsive2">Responsive Project HTML & CSS Animations</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src="https://via.placeholder.com/250x180" alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="#">Nombre del proyecto</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src="https://via.placeholder.com/250x180" alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="#">Nombre del proyecto</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src="https://via.placeholder.com/250x180" alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="#">Nombre del proyecto</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+                <article class="project">
+                    <div class="image-wrap">
+                        <img src="https://via.placeholder.com/250x180" alt="">
+                    </div>
+                    <div class="project-info">
+                        <a href="#">Nombre del proyecto</a>
+                        <p>Sitio Web</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!--FIN DE CONTENIDO-->
+
+        <footer id="footer">
+            <div class="logo">
+                Portafolio
+            </div>
+
+            <div class="info">
+                Master en CSS - Oliver Lucero WEB &copy;
+            </div>
+        </footer>
+    </div>
+    <!--FIN CONTAINER-->
+</body>
+
+</html>
